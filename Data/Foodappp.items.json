@@ -1,0 +1,194 @@
+[{
+  "_id": {
+    "$oid": "668a522af76296f211e30592"
+  },
+  "CategoryName": "Biryani/Rice",
+  "name": "Chicken Fried Rice",
+  "img": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2tlbiUyMGZyaWVkJTIwcmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+  "options": [
+    {
+      "half": "130",
+      "full": "220"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added.",
+  "price": 220
+},
+{
+  "_id": {
+    "$oid": "668a522af76296f211e30593"
+  },
+  "CategoryName": "Biryani/Rice",
+  "name": "Veg Fried Rice",
+  "img": "data:image/jpeg;base64,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",
+  "options": [
+    {
+      "half": "110",
+      "full": "200"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added.",
+  "price": 200
+},
+{
+  "_id": {
+    "$oid": "668a522af76296f211e30594"
+  },
+  "CategoryName": "Biryani/Rice",
+  "name": "Fish Biryani",
+  "img": "https://media.istockphoto.com/photos/king-fish-biryani-with-raita-served-in-a-golden-dish-isolated-on-dark-picture-id1409942571?b=1&k=20&m=1409942571&s=170667a&w=0&h=ozlMJf5hsDmS2sSdEdBWnoSZOEITef4qGMeWeq2lyTc=",
+  "options": [
+    {
+      "half": "200",
+      "full": "320"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added.",
+  "price": 320
+},
+{
+  "_id": {
+    "$oid": "668a522af76296f211e30595"
+  },
+  "CategoryName": "Biryani/Rice",
+  "name": "Chicken Biryani",
+  "img": "https://cdn.pixabay.com/photo/2019/11/04/12/16/rice-4601049__340.jpg",
+  "options": [
+    {
+      "half": "170",
+      "full": "300"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added.",
+  "price": 300
+},
+{
+  "_id": {
+    "$oid": "668a522af76296f211e30596"
+  },
+  "CategoryName": "Biryani/Rice",
+  "name": "Veg Biryani",
+  "img": "https://media.istockphoto.com/photos/veg-biryani-picture-id1363306527?b=1&k=20&m=1363306527&s=170667a&w=0&h=VCbro7CX8nq2kruynWOCO2GbMGCea2dDJy6O6ebCKD0=",
+  "options": [
+    {
+      "half": "150",
+      "full": "260"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added.",
+  "price": 260
+},
+{
+  "_id": {
+    "$oid": "668a522af76296f211e30597"
+  },
+  "CategoryName": "Biryani/Rice",
+  "name": "Prawns Fried Rice",
+  "img": "https://cdn.pixabay.com/photo/2018/03/23/08/27/thai-fried-rice-3253027__340.jpg",
+  "options": [
+    {
+      "half": "120",
+      "full": "220"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added.",
+  "price": 220
+},
+{
+  "_id": {
+    "$oid": "668a522af76296f211e30598"
+  },
+  "CategoryName": "Starter",
+  "name": "Chilli Paneer",
+  "img": "https://media.istockphoto.com/photos/spicy-paneer-or-chilli-paneer-or-paneer-tikka-or-cottage-cheese-in-picture-id697316634?b=1&k=20&m=697316634&s=170667a&w=0&h=bctfHdYTz9q2dJUnuxGRDUUwC9UBWjL_oQo5ECVVDAs=",
+  "options": [
+    {
+      "half": "120",
+      "full": "200"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added.",
+  "price": 200
+},
+{
+  "_id": {
+    "$oid": "668a522af76296f211e30599"
+  },
+  "CategoryName": "Starter",
+  "name": "Paneer 65",
+  "img": "https://media.istockphoto.com/photos/paneer-tikka-kabab-in-red-sauce-is-an-indian-dish-made-from-chunks-of-picture-id1257507446?b=1&k=20&m=1257507446&s=170667a&w=0&h=Nd7QsslbvPqOcvwu1bY0rEPZXJqwoKTYCal3nty4X-Y=",
+  "options": [
+    {
+      "half": "150",
+      "full": "260"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added.",
+  "price": 260
+},
+{
+  "_id": {
+    "$oid": "668a522af76296f211e3059a"
+  },
+  "CategoryName": "Starter",
+  "name": "Chicken Tikka",
+  "img": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2tlbiUyMHRpa2thfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  "options": [
+    {
+      "half": "170",
+      "full": "300"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added.",
+  "price": 300
+},
+{
+  "_id": {
+    "$oid": "668a522af76296f211e3059b"
+  },
+  "CategoryName": "Starter",
+  "name": "Paneer Tikka",
+  "img": "https://media.istockphoto.com/photos/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-picture-id1186759790?k=20&m=1186759790&s=612x612&w=0&h=e9MlX_7cZtq9_-ORGLPNU27VNP6SvDz7s-iwTxrf7wU=",
+  "options": [
+    {
+      "half": "170",
+      "full": "250"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added.",
+  "price": 250
+},
+{
+  "_id": {
+    "$oid": "668a522af76296f211e3059c"
+  },
+  "CategoryName": "Pizza",
+  "name": "Chicken Cheese Pizza",
+  "img": "https://media.istockphoto.com/photos/double-topping-pizza-on-the-wooden-desk-isolated-picture-id1074109872?k=20&m=1074109872&s=612x612&w=0&h=JoYwwTfU_mMBykXpRB_DmgeecfotutOIO9pV5_JObpk=",
+  "options": [
+    {
+      "regular": "120",
+      "medium": "230",
+      "large": "350"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added.",
+  "price": 350
+},
+{
+  "_id": {
+    "$oid": "668a522af76296f211e3059d"
+  },
+  "CategoryName": "Pizza",
+  "name": "Mix Veg Pizza",
+  "img": "https://media.istockphoto.com/photos/chinese-food-veg-pizza-picture-id1341905237?k=20&m=1341905237&s=612x612&w=0&h=Lbuza1Ig5cC1PwQhqTsq-Uac8hg1W-V0Wx4d4lqDeB0=",
+  "options": [
+    {
+      "regular": "100",
+      "medium": "200",
+      "large": "300"
+    }
+  ],
+  "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added.",
+  "price": 300
+}]
