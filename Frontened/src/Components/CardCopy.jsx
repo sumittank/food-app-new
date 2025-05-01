@@ -1,64 +1,60 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react';
 import { IoHeart } from "react-icons/io5";
 import { useFavorites } from './FavouriteProvider';
 import Cart from './Cart';
 
 function CardCopy({ items }) {
-    const [isClicked, setIsClicked] = useState(false); // Initial state set to false
-    let {toggleFav,giveFav,setGiveFav} = useFavorites();
+    const [isClicked, setIsClicked] = useState(false); // Track if heart is clicked
+    const { toggleFav, giveFav, setGiveFav } = useFavorites();
 
     const toggleColor = () => {
-        setIsClicked(!isClicked); // Toggle the state on click
-        // toggleFav(items)
+        setIsClicked(!isClicked); // Toggle the heart icon color
+
+        // Check if the item is already in favorites
         const isItemInFavorites = giveFav.some(favItem => favItem._id === items._id);
 
         if (isItemInFavorites) {
-            // Remove the item if it's already in favorites
+            // Remove the item from favorites if already added
             setGiveFav(giveFav.filter(favItem => favItem._id !== items._id));
         } else {
-            // Add the item if it's not in favorites
+            // Add the item to favorites if not already added
             setGiveFav([...giveFav, items]);
         }
-
     };
-    
 
     return (
-        <> <div className="flex justify-center">
-            <div className="flex w-3/4 justify-between pt-8 pb-8 ">
+        <div className="flex justify-center">
+            <div className="flex flex-col sm:flex-row w-3/4 justify-between pt-8 pb-8 shadow-lg rounded-lg">
+                {/* Item Information */}
                 <div className='pt-3 pb-3 pl-2 flex justify-center flex-col'>
-                    <div className='text-xl'>{items.name}</div>
-                    <div className='text-2xl mb-2'>{items.city}</div>
+                    <div className='text-xl font-semibold'>{items.name}</div>
+                    <div className='text-2xl mb-2 text-teal-600'>{items.city}</div>
                     <div className='text-xl'>{items.dishName}</div>
-                    <div className='text-lg'>₹{items.price}</div>
-                    <div className='text-sm pt-4'>{items.description}</div>
-
+                    <div className='text-lg text-gray-800'>₹{items.price}</div>
+                    <div className='text-sm pt-4 text-gray-500'>{items.description}</div>
                 </div>
 
-                {/* <div>
-                    <img src={item.img} alt="item" className="h-36 w-36 rounded-xl z-20" />
-                    <div className="flex justify-center z-10">
-                        <div className='bg-red-500 w-3/4 flex justify-center'>Add</div>
+                {/* Heart Icon and Item Image */}
+                <div className="relative flex flex-col sm:flex-row justify-center sm:justify-start mt-4 sm:mt-0">
+                    <div className='mr-3 cursor-pointer'>
+                        {/* Toggle heart color based on favorite status */}
+                        <IoHeart
+                            className={`text-3xl ${isClicked ? 'text-gray-400' : 'text-pink-500'}`}
+                            onClick={toggleColor}
+                        />
                     </div>
+                    <img src={items.img} alt={items.name} className="h-36 w-40 rounded-xl mt-4 sm:mt-0 sm:ml-4" />
 
-                </div> */}
-                <div className="relative flex">
-                    <div className='mr-3'> <IoHeart
-                        className={`cursor-pointer ${isClicked ? 'text-gray-400' : 'text-pink-500'}`}
-                        onClick={toggleColor} // Toggle color on click
-                    /></div>
-                    <img src={items.img} alt="item" className="h-36 w-40 rounded-xl" />
-                    <div className="absolute mt-40 w-full">
-                        <div className='bg-teal-100 text-gray-800 w-3/4  mx-auto text-center h-7 rounded-md ml-10'><Cart items={items} /></div>
+                    {/* Add to Cart Button */}
+                    <div className="absolute bottom-2 w-full sm:relative sm:bottom-auto sm:w-36">
+                        <div className='bg-teal-100 text-gray-800 w-3/4 mx-auto text-center h-7 rounded-md'>
+                            <Cart items={items} />
+                        </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
-
-        </>
-    )
+    );
 }
 
-export default CardCopy
+export default CardCopy;
