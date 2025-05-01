@@ -12,7 +12,7 @@ const secretKey = "HELLOMYNAMEISRAMIN/|inCiTYoFGOD"
 const app = express()
 app.use(express.json())
 app.use(cors({
-    origin: 'https://jade-kitten-e3ba9a.netlify.app' // Your Netlify frontend URL
+    origin: 'https://drop-food-delivery.netlify.app/' // Your Netlify frontend URL
   }));
 app.get('/getitems',async (req,res) => {
     let result = await Items.find()
